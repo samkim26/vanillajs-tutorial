@@ -20,6 +20,9 @@ body {
 .item:not(:nth-child(1)):active {
   opacity: 0.8;
 }
+.item:hover {
+  cursor: pointer;
+}
 
 .container {
   width: 700px;
